@@ -16,40 +16,40 @@ message()
 
 # 3. Add two numbers
 def add(a, b):
-    return a + b
-print(add(5, 3))
+    print(a + b)
+add(5, 3)
 
 # 4. Multiply two numbers
 def multiply(a, b):
-    return a * b
-print(multiply(4, 6))
+    print(a * b)
+multiply(4, 6)
 
 # 5. Square a number
 def square(n):
-    return n * n
-print(square(7))
+    print(n * n)
+square(7)
 
 # 6. Maximum of two numbers
 def maximum(a, b):
     if a > b:
-        return a
+        print(a)
     else:
-        return b
-print(maximum(10, 20))
+        print(b)
+maximum(10, 20)
 
 # 7. Minimum of two numbers
 def minimum(a, b):
     if a < b:
-        return a
+        print(a)
     else:
-        return b
-print(minimum(10, 20))
+        print(b)
+minimum(10, 20)
 
 # 8. Area of a circle
 def area_circle(r):
     pi = 3.14159
-    return pi * r * r
-print(area_circle(5))
+    print(pi * r * r)
+area_circle(5)
 
 # 9. Area of a rectangle
 def area_rectangle(l, w):
